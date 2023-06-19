@@ -54,10 +54,9 @@ body {
 
 .link {
 	position: relative;
-	background-color: transparent;
+	background-color: rgba(255, 255, 255, .1);
 	backdrop-filter: blur(10px);
 	color: var(--accentColor);
-	border: solid var(--accentColor) 2px;
 	border-radius: 25px;
 	font-size: 1rem;
 	text-align: center;
@@ -65,7 +64,7 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	padding: 10px; /* 17px */
+	padding: 14px; /* 17px */
 	text-decoration: none;
 	transition: all .25s cubic-bezier(.08, .59, .29, .99);
 	-webkit-tap-highlight-color: transparent;
